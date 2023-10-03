@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktoberfest 2023 - Participants</title>
+    <link href="./css/main.css" rel="stylesheet" />
+    <link rel="icon" href="https://hacktoberfest.com/_next/static/media/favicon.c57c9d0f.svg" type="image/svg+xml">
+</head>
+<body>
+    <body data-theme="dark">
+        <header>
+            <nav id="main-menu">
+                <div class="top-menu">
+                    <a class="menu-link" href="index.html">Home</a>
+                    <a class="menu-link" href="#">Contributors</a>
+                    <a class="menu-link orange-gradient" href="https://hacktoberfest.com" target="_blank">Hacktoberfest 2023</a>
+                    <a class="october-brightness-contrast menu-link" id="change-theme" onclick="changeTheme()" href="#"></a>
+                </div>
+            </nav>
+        </header>
+        <div id="content">
+            <div id="contributors" class="page visible">
+
+                <div class="hacktoberfesr-contributor">
+                    <a href="https://github.com/Jan-Fcloud" target="_blank">
+                        <img class="mobile-img" src="assets/jans-github-pfp.jpg" height="150" width="150">
+                        <div class="card">
+                            <img class="desktop-img" src="assets/jans-github-pfp.jpg" height="400" width="400">
+                            <div class="card-info">
+                                <h1 class="orange-gradient">Jan-Fcloud</h1>
+                                <p class="flex-gap-small sub-info">Developer<span class="icon-circle"> o </span>VR Enthusiast<span class="icon-circle"> o </span>Music Lover</p>
+                                <div class="using">
+                                    <h2>Software I use:</h2><div class="using-list"><p>Unity</p><p>Visual Studio</p><p>Visual Studio Code</p><p>Notion</p><p>Arc</p><p>Xcode</p><p>Adobe CC <span style="font-size: 10px;"><i>most of them</i></span></p><p>Blender</p><p>Boop</p><p>phpStorm</p><p>Unreal Engine</p></div>
+                                    <h2>Things I've developed with so far:</h2>
+                                    <div class="using-list"><p>C#</p><p>C++</p><p>HTML</p><p>CSS</p><p>JS</p><p>Typescript</p><p>Swift</p><p>PHP</p><p>Lua</p><p>Python</p><p>Angular</p><p>RxJS</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <!-- 
+                    ============================================
+                ================ CONTRIBUTORS TEMPLATE ================
+                    
+                <div class="hacktoberfesr-contributor">
+                     <a href="GITHUB LINK HERE" target="_blank">
+                        <img class="mobile-img" src="ICON LINK HERE" height="150" width="150">
+                        <div class="card">
+                            <img class="desktop-img" src="ICON LINK HERE" height="400" width="400">
+                            <div class="card-info">
+                                <h1 class="orange-gradient">YOUR NAME</h1>
+                                <p class="flex-gap-small sub-info">Lorem Ipsum<span class="icon-circle"> o </span>Lorem Ipsum<span class="icon-circle"> o </span>Lorem Ipsum</p>
+                                <div class="using">
+                                    <h2>Software I use:</h2><div class="using-list"><p>Lorem Ipsum</p><p>Lorem Ipsum</p><p>Lorem Ipsum</p></div>
+                                    <h2>Things I've developed with so far:</h2>
+                                    <div class="using-list"><p>Lorem Ipsum</p><p>Lorem Ipsum</p><p>Lorem Ipsum</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div> 
+                ================ CONTRIBUTORS TEMPLATE ================
+                    ============================================
+            -->
+        </div>
+        
+        <div id="modal-1" class="modal">
+            <div class="modal-content">
+                <div class="modal-close">
+                    <a href="#" onclick="modalToggle('modal-1')" rel="modal:close" class="icon-close"><span></span></a>
+                </div>
+                <p style="text-align: center; font-size: 2em; font-weight: bold; margin-top: 0px; margin-bottom: 10px;">Fr fr</p>
+                <img src="https://cdn.discordapp.com/attachments/920020541543419944/1152118142911397898/IMG_0442.jpg" loading="lazy">
+            </div>
+        </div>
+
+    </body>
+    <script>
+        const themeChanger = document.getElementById("change-theme");
+        const body = document.getElementsByTagName("body")[0];
+    
+        function changeTheme() {
+            if(body.getAttribute("data-theme") == "dark"){
+                body.setAttribute("data-theme", "light");
+                themeChanger.classList.remove("icon-moon");
+                themeChanger.classList.add("icon-sun");
+            } else {
+                body.setAttribute("data-theme", "dark");
+                themeChanger.classList.remove("icon-sun");
+                themeChanger.classList.add("icon-moon");
+            }
+        }
+    
+        function modalToggle(modal){
+            const modalElement = document.getElementById(modal);
+            modalElement.classList.toggle("modal-active");
+        }
+    
+    </script>
+    </html>

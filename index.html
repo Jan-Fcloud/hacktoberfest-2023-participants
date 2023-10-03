@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktoberfest 2023 - Participants</title>
+    <link href="./css/main.css" rel="stylesheet" />
+    <link rel="icon" href="https://hacktoberfest.com/_next/static/media/favicon.c57c9d0f.svg" type="image/svg+xml">
+</head>
+<body>
+    <body data-theme="dark">
+        <header>
+            <nav id="main-menu">
+                <div class="top-menu">
+                    <a class="menu-link" href="#" onclick="pageSwitch('home')">Home</a>
+                    <a class="menu-link" href="contributors.html">Contributors</a>
+                    <a class="menu-link orange-gradient" href="https://hacktoberfest.com" target="_blank">Hacktoberfest 2023</a>
+                    <a class="october-brightness-contrast menu-link" id="change-theme" onclick="changeTheme()" href="#"></a>
+                </div>
+            </nav>
+        </header>
+        <div id="content">
+            <div id="home" class="flex page visible">
+                <div class="intro">
+                    
+                    <h1 id="hacktoberfest-2023-participants">hacktoberfest-2023-participants</h1>
+                    <p>⭐ Take part in Hacktoberfest 2023 by adding yourself to this website and by contributing your own web projects ⭐</p>
+                    <h1 id="how-to-take-part-">How to take part:</h1>
+                    <p>Hello and welcome to Hacktoberfest 2023, I hope you are enjoying yourself!
+                    To take part in this repository, you can do multiple things. You can:</p>
+                    <ul>
+                    <li>Improve the design and features on the website itself,</li>
+                    <li>Add yourself to the &quot;Contributors&quot; tab, link your GitHub profile and tell us a few things about yourself and add a project to ./contributor-projects that you would love to share with others.</li>
+                    <li>Improve this documentation</li>
+                    </ul>
+                    <p><strong>(It would also mean a lot if you could leave a star, to spread this to others so they can introduce themselves as well!)</strong></p>
+                    <h2 id="how-to-add-yourself-as-a-contributor-">How to add yourself as a Contributor:</h2>
+                    <p>It&#39;s very simple. All you have to do is find the commented out template HTML in <strong>contributors.html</strong>, which contains everything already prepared for you. All you have to do is change the link to your profile picture (it can be external or you can add it to the repo), change the name, link to your GitHub and of course change the description.
+                    Also, feel free to make your own custom CSS for your presentation, the more different styles, the better!</p>
+                    <h2 id="rules-">Rules:</h2>
+                    <p>There are not many rules. The only things you&#39;d have to follow are:</p>
+                    <ul>
+                    <li>Do not delete or alter any other people&#39;s work or presentation,</li>
+                    <li>Always make sure to sync this repo with your fork, because it can happen that someone might have commited changes right before you,</li>
+                    <li>Be kind and show respect to everyone!</li>
+                    </ul>
+                    <h1 id="that-s-it-">That&#39;s it!</h1>
+                    <p>That&#39;s gonna do it for this explenation! Have fun and best of luck on your Hacktoberfest journey!</p>
+
+
+                
+                </div>
+            </div>
+            
+        </div>
+        
+        
+        <div id="modal-1" class="modal">
+            <div class="modal-content">
+                <div class="modal-close">
+                    <a href="#" onclick="modalToggle('modal-1')" rel="modal:close" class="icon-close"><span></span></a>
+                </div>
+                <p style="text-align: center; font-size: 2em; font-weight: bold; margin-top: 0px; margin-bottom: 10px;">Fr fr</p>
+                <img src="https://cdn.discordapp.com/attachments/920020541543419944/1152118142911397898/IMG_0442.jpg" loading="lazy">
+            </div>
+        </div>
+
+    </body>
+    <script>
+        const themeChanger = document.getElementById("change-theme");
+        const body = document.getElementsByTagName("body")[0];
+    
+        function changeTheme() {
+            if(body.getAttribute("data-theme") == "dark"){
+                body.setAttribute("data-theme", "light");
+                themeChanger.classList.remove("icon-moon");
+                themeChanger.classList.add("icon-sun");
+            } else {
+                body.setAttribute("data-theme", "dark");
+                themeChanger.classList.remove("icon-sun");
+                themeChanger.classList.add("icon-moon");
+            }
+        }
+    
+        function modalToggle(modal){
+            const modalElement = document.getElementById(modal);
+            modalElement.classList.toggle("modal-active");
+        }
+    
+    </script>
+    </html>
