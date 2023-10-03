@@ -1,12 +1,12 @@
 # hacktoberfest-2023-participants
 ⭐ Take part in Hacktoberfest 2023 by adding yourself to this website and by contributing your own web projects ⭐
 
-# How to take part:
+# How to participate:
 Hello and welcome to Hacktoberfest 2023, I hope you are enjoying yourself!
-To take part in this repository, you can do multiple things. You can:
-- Improve the design and features on the website itself,
-- Add yourself to the "Contributors" tab, link your GitHub profile and tell us a few things about yourself and add a project to ./contributor-projects that you would love to share with others.
-- Improve this documentation
+To take part in this repository, you can do multiple things:
+- Improve the design and features on the website itself.
+- Add yourself to the "Contributors" tab. Link your GitHub profile and tell us a few things about yourself, and add a project to ./contributor-projects that you would love to share with others.
+- Improve this documentation.
 
 **(It would also mean a lot if you could leave a star, to spread this to others so they can introduce themselves as well!)**
 
