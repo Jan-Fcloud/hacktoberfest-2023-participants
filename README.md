@@ -21,5 +21,7 @@ There are not many rules. The only things you'd have to follow are:
 - No auto redirects and keep all links target="_blank",
 - Be kind and show respect to everyone!
 
+After everything mentioned is done, I will check pull requests, add it to this repo and add the **hacktoberfest-accepted** label.
+
 # That's it!
 That's gonna do it for this explenation! Have fun and best of luck on your Hacktoberfest journey!
