@@ -11,7 +11,7 @@ To take part in this repository, you can do multiple things:
 **(It would also mean a lot if you could leave a star, to spread this to others so they can introduce themselves as well!)**
 
 ## How to add yourself as a Contributor:
-It's very simple. All you have to do is find the commented out template HTML in **contributors.html**, which contains everything already prepared for you. All you have to do is change the link to your profile picture (it can be external or you can add it to the repo), change the name, link to your GitHub and of course change the description.
+It's very simple. All you have to do is find the commented out HTML template in **contributors.html**, which contains everything already prepared for you. All you have to do is change the link to your profile picture (it can be external or you can add it to the repo), change the name, link to your GitHub and of course change the description.
 Also, feel free to make your own custom CSS for your presentation, the more different styles, the better!
 
 ## Rules:
