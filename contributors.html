@@ -20,7 +20,12 @@
             </nav>
         </header>
         <div id="content">
-            <div id="contributors" class="page visible">
+            <div class="layout">
+                <div class="layout-toggle">
+                    <a id="change-layout" onclick="changeLayout()">full</a>
+                </div>
+            </div>
+            <div id="contributors" class="page visible" layout-type="full">
 
                 <div class="hacktoberfesr-contributor">
                     <a href="https://github.com/Jan-Fcloud" target="_blank">
@@ -114,6 +119,19 @@
                 body.setAttribute("data-theme", "dark");
                 themeChanger.classList.remove("icon-sun");
                 themeChanger.classList.add("icon-moon");
+            }
+        }
+
+        const layoutChanger = document.getElementById("change-layout");
+        const contributors = document.getElementById("contributors");
+
+        function changeLayout() {
+            if(contributors.getAttribute("layout-type") == "full"){
+                contributors.setAttribute("layout-type", "compact");
+                layoutChanger.innerHTML = "full";
+            } else {
+                contributors.setAttribute("layout-type", "full");
+                layoutChanger.innerHTML = "compact";
             }
         }
     

@@ -50,12 +50,19 @@
     --background-color: #ffffff;
     --text-color: black;
     --soft-red: #c44d4d;
+
+    /*Layout -> full*/
+
 }
   
 body[data-theme="dark"]{
     --menu-background-color: #171717;
     --background-color: #1c1b1b;
     --text-color: #ffffff;
+}
+
+#contributors[layout-type="compact"]{
+    /*Layout -> compact*/
 }
 
 body{background: var(--background-color); margin: 0; color: var(--text-color);}
@@ -101,6 +108,29 @@ a{color: var(--text-color);}
     -webkit-text-fill-color: transparent;
 }
 
+.layout{
+    margin-bottom: 20px;
+}
+
+.layout-toggle{
+    display: flex;
+    justify-content: center;
+}
+
+#change-layout{
+    background-color: var(--menu-background-color);
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease-in-out;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+#change-layout:hover{
+    transform: scale(0.95);
+    cursor: pointer;
+}
 #content{
     /*width:1200px;*/
     margin: 0 auto;
@@ -251,7 +281,13 @@ a{color: var(--text-color);}
     background: var(--menu-background-color);
     padding: 25px 50px;
     border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 7px 5px 10px 0px rgba(0, 0, 0, 0.4);
+}
 
+.hacktoberfesr-contributor:hover{
+    transform: scale(0.98);
+    cursor: pointer;
 }
 
 .card, .card img{
