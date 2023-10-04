@@ -14,6 +14,35 @@ To take part in this repository, you can do multiple things:
 It's very simple. All you have to do is find the commented out HTML template in **contributors.html**, which contains everything already prepared for you. All you have to do is change the link to your profile picture (it can be external or you can add it to the repo), change the name, link to your GitHub, add your picture in the assets folder and give path of picture in the 'src' section of image part and of course change the description.
 Also, feel free to make your own custom CSS for your presentation, the more different styles, the better!
 
+HTML snippet:
+```html
+<div class="hacktoberfesr-contributor">
+   <a href="GITHUB LINK HERE" target="_blank">
+      <img class="mobile-img" src="ICON LINK HERE" height="150" width="150">
+      <div class="card">
+         <img class="desktop-img" src="ICON LINK HERE" height="400" width="400">
+         <div class="card-info">
+            <h1 class="orange-gradient">YOUR NAME</h1>
+            <p class="flex-gap-small sub-info">Lorem Ipsum<span class="icon-circle"> o </span>Lorem Ipsum<span class="icon-circle"> o </span>Lorem Ipsum</p>
+            <div class="using">
+               <h2>Software I use:</h2>
+               <div class="using-list">
+                  <p>Lorem Ipsum</p>
+                  <p>Lorem Ipsum</p>
+                  <p>Lorem Ipsum</p>
+               </div>
+               <h2>Things I've developed with so far:</h2>
+               <div class="using-list">
+                  <p>Lorem Ipsum</p>
+                  <p>Lorem Ipsum</p>
+                  <p>Lorem Ipsum</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </a>
+</div>
+```
 ## Rules:
 There are not many rules. The only things you'd have to follow are:
 - Do not delete or alter any other people's work or presentation,
