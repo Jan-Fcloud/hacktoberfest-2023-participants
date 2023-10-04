@@ -24,6 +24,12 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
   }
+
+  .disclaimer{
+    background: var(--menu-background-color);
+    padding: 25px 50px;
+    border-radius: 25px;
+  }
   
   .october-brightness-contrast:before {
     content: "\e900";

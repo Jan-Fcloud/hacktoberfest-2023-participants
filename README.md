@@ -43,6 +43,20 @@ HTML snippet:
    </a>
 </div>
 ```
+
+# Disclaimer for pull requests
+Although making a pull request by adding your profile is simple, the above mentioned snippet is what I prompt you to do after adding onto the website itself. Why do I say this? **Because of the following rule of Hacktoberfest:**
+```
+Bad repositories will be excluded.
+
+PR/MRs should be useful to maintainers. Repos that encourage simplistic PR/MRs (like adding a name or profile to a list or arbitrarily curating content) will be excluded from Hacktoberfest. Remember: quantity is fun, quality is key.
+```
+So even if your pull request does get accepted here, there is a chance that it won't be added onto your valid record of completed Pull Requests. I will be adding Issues here for Hacktoberfest features, so there will be less confusion when it comes to accepted tasks.
+
+All the Issues will of course be here:
+- https://github.com/Jan-Fcloud/hacktoberfest-2023-participants/issues
+
+
 ## Rules:
 There are not many rules. The only things you'd have to follow are:
 - Do not delete or alter any other people's work or presentation,
