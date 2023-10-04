@@ -68,7 +68,52 @@ body[data-theme="dark"]{
 }
 
 #contributors[layout-type="compact"]{
-    /*Layout -> compact*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+#contributors[layout-type="compact"] .hacktoberfesr-contributor{
+    width: 400px;
+    padding: 0;
+}
+
+#contributors[layout-type="compact"] .card{
+    display: flex;
+    flex-direction: column; 
+    margin-bottom: 0;
+}
+
+#contributors[layout-type="compact"] .card-info{
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contributors[layout-type="compact"] .card img{
+    height: 250px;
+    width: 250px;
+}
+
+#contributors[layout-type="compact"] .orange-gradient{
+    width: fit-content;
+}
+
+#contributors[layout-type="compact"] .sub-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contributors[layout-type="compact"] span{
+    opacity: 0;
+    font-size: 1px;
+}
+
+#contributors[layout-type="compact"] .using{
+    display: none;
 }
 
 body{background: var(--background-color); margin: 0; color: var(--text-color);}
@@ -183,6 +228,15 @@ a{color: var(--text-color);}
 
     .intro{
         width: 100% !important;
+    }
+
+    #contributors[layout-type="compact"] .hacktoberfesr-contributor{
+        width: 400px;
+        padding: 40px 0px;
+    }
+
+    #contributors[layout-type="compact"] .hacktoberfesr-contributor{
+        width: 300px;
     }
 }
 
