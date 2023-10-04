@@ -114,6 +114,15 @@ a{color: var(--text-color);}
     -webkit-text-fill-color: transparent;
 }
 
+.intro h1::before, h2::before{  
+    content: '';
+    display: inline-block;
+    height: 30px;
+    background-color: #6f10ed;
+    width: 7px;
+    transform: translateX(-4px) translateY(4px);
+}
+
 .layout{
     margin-bottom: 20px;
 }
