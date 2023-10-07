@@ -1,11 +1,11 @@
 @font-face {
   font-family: "october-icons";
-  src: url("../assets/fonts/october-icons.eot?c9cj52");
-  src: url("../assets/fonts/october-icons.eot?c9cj52#iefix")
+  src: url("../assets/fonts/october-icons.eot?k54vxk");
+  src: url("../assets/fonts/october-icons.eot?k54vxk#iefix")
       format("embedded-opentype"),
-    url("../assets/fonts/october-icons.ttf?c9cj52") format("truetype"),
-    url("../assets/fonts/october-icons.woff?c9cj52") format("woff"),
-    url("../assets/fonts/october-icons.svg?c9cj52#october-icons") format("svg");
+    url("../assets/fonts/october-icons.ttf?k54vxk") format("truetype"),
+    url("../assets/fonts/october-icons.woff?k54vxk") format("woff"),
+    url("../assets/fonts/october-icons.svg?k54vxk#october-icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -48,6 +48,16 @@
   display: flex;
   align-items: center;
 }
+
+
+  .october-github-link::before {
+    content: "\e901";
+  }
+
+  .october-github-link{
+    display: flex;
+    align-items: center;
+  }
 
 .orange-gradient {
   background: #cf6b1f;
