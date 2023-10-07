@@ -49,6 +49,30 @@
   align-items: center;
 }
 
+body{
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.intro{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-right: 20rem;
+}
+
+#content{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  margin-right: 20rem;
+}
+
+
+
+
 .orange-gradient {
   background: #cf6b1f;
   background: -webkit-linear-gradient(to right, #cf6b1f 0%, #d88342 65%);
@@ -244,9 +268,7 @@ a {
     width: 100%;
   }
 
-  .intro {
-    width: 100% !important;
-  }
+
 
   #contributors[layout-type="compact"] .hacktoberfesr-contributor {
     width: 400px;
@@ -469,6 +491,13 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+}
+
+@media (max-width:800px) {
+  .intro{
+    margin-right: 10rem;
+  }
+  
 }
 
 @media (max-width: 530px) {
