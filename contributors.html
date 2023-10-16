@@ -1,388 +1,593 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hacktoberfest 2023 - Participants</title>
     <link href="./css/main.css" rel="stylesheet" />
-    <link rel="icon" href="https://hacktoberfest.com/_next/static/media/favicon.c57c9d0f.svg" type="image/svg+xml">
+    <link
+      rel="icon"
+      href="https://hacktoberfest.com/_next/static/media/favicon.c57c9d0f.svg"
+      type="image/svg+xml"
+    />
     <script src="./Shadify.js"></script>
-</head>
+  </head>
 
-<body>
-    <body data-theme="dark" data-shader="https://glslsandbox.com/e#106606.8" data-shader-quality="8" data-shader-speed="0.4" data-shader-z-index="-2">
-        <div class="background-cover"></div>
+  <body
+    data-theme="dark"
+    data-shader="https://glslsandbox.com/e#106606.8"
+    data-shader-quality="8"
+    data-shader-speed="0.4"
+    data-shader-z-index="-2"
+  >
+    <div class="background-cover"></div>
 
-        <header>
-            <nav id="main-menu">
-                <div class="top-menu">
-                    <a class="menu-link" href="index.html">Home</a>
-                    <a class="menu-link" href="#">Contributors</a>
-                    <a class="menu-link orange-gradient" href="https://hacktoberfest.com" target="_blank">Hacktoberfest
-                        2023</a>
-                    <a class="october-brightness-contrast menu-link" id="change-theme" onclick="changeTheme()"
-                        href="#"></a>
-                    <a class="october-github-link menu-link" target="_blank" href="https://github.com/Jan-Fcloud/hacktoberfest-2023-participants/"></a>
+    <header>
+      <nav id="main-menu">
+        <div class="top-menu">
+          <a class="menu-link" href="index.html">Home</a>
+          <a class="menu-link" href="#">Contributors</a>
+          <a
+            class="menu-link orange-gradient"
+            href="https://hacktoberfest.com"
+            target="_blank"
+            >Hacktoberfest 2023</a
+          >
+          <a
+            class="october-brightness-contrast menu-link"
+            id="change-theme"
+            onclick="changeTheme()"
+            href="#"
+          ></a>
+          <a
+            class="october-github-link menu-link"
+            target="_blank"
+            href="https://github.com/Jan-Fcloud/hacktoberfest-2023-participants/"
+          ></a>
+        </div>
+      </nav>
+    </header>
+    <div id="content">
+      <div class="layout">
+        <div class="layout-toggle">
+          <a id="change-layout" onclick="changeLayout()">Compact</a>
+        </div>
+      </div>
+      <div id="contributors" class="page visible" layout-type="full">
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/Jan-Fcloud" target="_blank">
+            <img
+              class="mobile-img"
+              src="assets/jans-github-pfp.jpg"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="assets/jans-github-pfp.jpg"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Jan-Fcloud</h1>
+                <p class="flex-gap-small sub-info">
+                  Developer<span class="icon-circle"> o </span>VR
+                  Enthusiast<span class="icon-circle"> o </span>Music Lover
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>Unity</p>
+                    <p>Visual Studio</p>
+                    <p>Visual Studio Code</p>
+                    <p>Notion</p>
+                    <p>Arc</p>
+                    <p>Xcode</p>
+                    <p>
+                      Adobe CC
+                      <span style="font-size: 10px"><i>most of them</i></span>
+                    </p>
+                    <p>Blender</p>
+                    <p>Boop</p>
+                    <p>phpStorm</p>
+                    <p>Unreal Engine</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>C#</p>
+                    <p>C++</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>JS</p>
+                    <p>Typescript</p>
+                    <p>Swift</p>
+                    <p>PHP</p>
+                    <p>Lua</p>
+                    <p>Python</p>
+                    <p>Angular</p>
+                    <p>RxJS</p>
+                  </div>
                 </div>
-            </nav>
-        </header>
-        <div id="content">
-            <div class="layout">
-                <div class="layout-toggle">
-                    <a id="change-layout" onclick="changeLayout()">Compact</a>
-                </div>
+              </div>
             </div>
-            <div id="contributors" class="page visible" layout-type="full">
+          </a>
+        </div>
 
-                <div class="hacktoberfesr-contributor">
-                    <a href="https://github.com/Jan-Fcloud" target="_blank">
-                        <img class="mobile-img" src="assets/jans-github-pfp.jpg" height="150" width="150">
-                        <div class="card">
-                            <img class="desktop-img" src="assets/jans-github-pfp.jpg" height="400" width="400">
-                            <div class="card-info">
-                                <h1 class="orange-gradient">Jan-Fcloud</h1>
-                                <p class="flex-gap-small sub-info">Developer<span class="icon-circle"> o </span>VR
-                                    Enthusiast<span class="icon-circle"> o </span>Music Lover</p>
-                                <div class="using">
-                                    <h2>Software I use:</h2>
-                                    <div class="using-list">
-                                        <p>Unity</p>
-                                        <p>Visual Studio</p>
-                                        <p>Visual Studio Code</p>
-                                        <p>Notion</p>
-                                        <p>Arc</p>
-                                        <p>Xcode</p>
-                                        <p>Adobe CC <span style="font-size: 10px;"><i>most of them</i></span></p>
-                                        <p>Blender</p>
-                                        <p>Boop</p>
-                                        <p>phpStorm</p>
-                                        <p>Unreal Engine</p>
-                                    </div>
-                                    <h2>Things I've developed with so far:</h2>
-                                    <div class="using-list">
-                                        <p>C#</p>
-                                        <p>C++</p>
-                                        <p>HTML</p>
-                                        <p>CSS</p>
-                                        <p>JS</p>
-                                        <p>Typescript</p>
-                                        <p>Swift</p>
-                                        <p>PHP</p>
-                                        <p>Lua</p>
-                                        <p>Python</p>
-                                        <p>Angular</p>
-                                        <p>RxJS</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/avionicharshit-byte" target="_blank">
+            <img
+              class="mobile-img"
+              src="assets/nebula.jpg"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="assets/nebula.jpg"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Harshit Dev</h1>
+                <p class="flex-gap-small sub-info">
+                  IoT Enthusiast<span class="icon-circle"> o </span>Java
+                  Developer<span class="icon-circle"> o </span>Football Lover
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>Vs Code</p>
+                    <p>Intellij Idea</p>
+                    <p>React</p>
+                    <p>Blender</p>
+                    <p>Arduino Ide</p>
+                    <p>Platform Io</p>
+                    <p>Notion</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>Java</p>
+                    <p>Flutter</p>
+                    <p>React</p>
+                    <p>Embedded C</p>
+                    <p>Python</p>
+                    <p>Threejs</p>
+                    <p>HTML5</p>
+                    <p>CSS</p>
+                    <p>JavaScript</p>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-
-
-
-
-                <div class="hacktoberfesr-contributor">
-                    <a href="https://github.com/avionicharshit-byte" target="_blank">
-                        <img class="mobile-img" src="assets/nebula.jpg" height="150" width="150">
-                        <div class="card">
-                            <img class="desktop-img" src="assets/nebula.jpg" height="400" width="400">
-                            <div class="card-info">
-                                <h1 class="orange-gradient">Harshit Dev</h1>
-                                <p class="flex-gap-small sub-info">IoT Enthusiast<span class="icon-circle"> o
-                                    </span>Java Developer<span class="icon-circle"> o </span>Football Lover</p>
-                                <div class="using">
-                                    <h2>Software I use:</h2>
-                                    <div class="using-list">
-                                        <p>Vs Code</p>
-                                        <p>Intellij Idea</p>
-                                        <p>React</p>
-                                        <p>Blender</p>
-                                        <p>Arduino Ide</p>
-                                        <p>Platform Io</p>
-                                        <p>Notion</p></span>
-                                    </div>
-                                    <h2>Things I've developed with so far:</h2>
-                                    <div class="using-list">
-                                        <p>Java</p>
-                                        <p>Flutter</p>
-                                        <p>React</p>
-                                        <p>Embedded C</p>
-                                        <p>Python</p>
-                                        <p>Threejs</p>
-                                        <p>HTML5</p>
-                                        <p>CSS</p>
-                                        <p>JavaScript</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/madabhi" target="_blank">
+            <img
+              class="mobile-img"
+              src="assets/madabhi.jpg"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="assets/madabhi.jpg"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Abhinav Singh</h1>
+                <p class="flex-gap-small sub-info">
+                  Web Developer<span class="icon-circle"> o </span>MERN
+                  Developers<span class="icon-circle"> o </span>Technology
+                  Enthusiast
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>Vs Code</p>
+                    <p>DaVinci Resolve</p>
+                    <p>Figma</p>
+                    <p>Canva</p>
+                  </div>
+                  <h2>Technologies I Know</h2>
+                  <div class="using-list">
+                    <p>JavaScript</p>
+                    <p>HTML/CSS</p>
+                    <p>React</p>
+                    <p>Node JS C</p>
+                    <p>MongoDB</p>
+                    <p>Supabase</p>
+                    <p>Arduino</p>
+                    <p>C++</p>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-
-                <div class="hacktoberfesr-contributor">
-                    <a href="https://github.com/madabhi" target="_blank">
-                        <img class="mobile-img" src="assets/madabhi.jpg" height="150" width="150">
-                        <div class="card">
-                            <img class="desktop-img" src="assets/madabhi.jpg" height="400" width="400">
-                            <div class="card-info">
-                                <h1 class="orange-gradient">Abhinav Singh</h1>
-                                <p class="flex-gap-small sub-info">Web Developer<span class="icon-circle"> o </span>MERN
-                                    Developers<span class="icon-circle"> o </span>Technology Enthusiast</p>
-                                <div class="using">
-                                    <h2>Software I use:</h2>
-                                    <div class="using-list">
-                                        <p>Vs Code</p>
-                                        <p>DaVinci Resolve</p>
-                                        <p>Figma</p>
-                                        <p>Canva</p>
-                                    </div>
-                                    <h2>Technologies I Know</h2>
-                                    <div class="using-list">
-                                        <p>JavaScript</p>
-                                        <p>HTML/CSS</p>
-                                        <p>React</p>
-                                        <p>Node JS C</p>
-                                        <p>MongoDB</p>
-                                        <p>Supabase</p>
-                                        <p>Arduino</p>
-                                        <p>C++</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/fridokus" target="_blank">
+            <img
+              class="mobile-img"
+              src="assets/fridokus.jpg"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="assets/fridokus.jpg"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Oskar F</h1>
+                <p class="flex-gap-small sub-info">
+                  Bitcoin enthusiast<span class="icon-circle"> o </span>Python
+                  developer<span class="icon-circle"> o </span>Long distance
+                  runner
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>vim</p>
+                    <p>k9s</p>
+                    <p>python</p>
+                    <p>Bitcoin Core</p>
+                    <p>Zeus lightning</p>
+                    <p>i3</p>
+                    <p>qutebrowser</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>Java</p>
+                    <p>Python</p>
+                    <p>Pytorch</p>
+                    <p>Javascript</p>
+                    <p>Rust</p>
+                    <p>C</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Basic</p>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-                <div class="hacktoberfesr-contributor">
-                    <a href="https://github.com/fridokus" target="_blank">
-                        <img class="mobile-img" src="assets/fridokus.jpg" height="150" width="150">
-                        <div class="card">
-                            <img class="desktop-img" src="assets/fridokus.jpg" height="400" width="400">
-                            <div class="card-info">
-                                <h1 class="orange-gradient">Oskar F</h1>
-                                <p class="flex-gap-small sub-info">Bitcoin enthusiast<span class="icon-circle"> o
-                                    </span>Python developer<span class="icon-circle"> o </span>Long distance runner</p>
-                                <div class="using">
-                                    <h2>Software I use:</h2>
-                                    <div class="using-list">
-                                        <p>vim</p>
-                                        <p>k9s</p>
-                                        <p>python</p>
-                                        <p>Bitcoin Core</p>
-                                        <p>Zeus lightning</p>
-                                        <p>i3</p>
-                                        <p>qutebrowser</p></span>
-                                    </div>
-                                    <h2>Things I've developed with so far:</h2>
-                                    <div class="using-list">
-                                        <p>Java</p>
-                                        <p>Python</p>
-                                        <p>Pytorch</p>
-                                        <p>Javascript</p>
-                                        <p>Rust</p>
-                                        <p>C</p>
-                                        <p>HTML</p>
-                                        <p>CSS</p>
-                                        <p>Basic</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/Mohit-coder-droid/" target="_blank">
+            <img
+              class="mobile-img"
+              src="assets/you.jpg"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="assets/you.jpg"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Mohit Sahu</h1>
+                <p class="flex-gap-small sub-info">
+                  <span class="icon-circle"> o </span>Student<span
+                    class="icon-circle"
+                  >
+                    o </span
+                  >Book Lover<span class="icon-circle"> o </span>Free Learner
+                </p>
+
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>Python</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Java Script</p>
+                    <p>Java</p>
+                    <p>C++</p>
+                    <p>Processing</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>Python</p>
+                    <p>P5 JS</p>
+                    <p>Java Script</p>
+                    <p>Java</p>
+                    <p>C++</p>
+                    <p>Processing</p>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-                <div class="hacktoberfesr-contributor">
-                    <a href="https://github.com/Mohit-coder-droid/" target="_blank">
-                        <img class="mobile-img" src="assets/you.jpg" height="150" width="150">
-                        <div class="card">
-                            <img class="desktop-img" src="assets/you.jpg" height="400" width="400">
-                            <div class="card-info">
-                                <h1 class="orange-gradient">Mohit Sahu</h1>
-                                <p class="flex-gap-small sub-info"><span class="icon-circle"> o </span>Student<span
-                                        class="icon-circle"> o </span>Book Lover<span class="icon-circle"> o </span>Free
-                                    Learner
-                                <div class="using">
-                                    <h2>Software I use:</h2>
-                                    <div class="using-list">
-                                        <p>Python</p>
-                                        <p>HTML</p>
-                                        <p>CSS</p>
-                                        <p>Java Script</p>
-                                        <p>Java</p>
-                                        <p>C++</p>
-                                        <p>Processing</p>
-                                    </div>
-                                    <h2>Things I've developed with so far:</h2>
-                                    <div class="using-list">
-                                        <p>Python</p>
-                                        <p>P5 JS</p>
-                                        <p>Java Script</p>
-                                        <p>Java</p>
-                                        <p>C++</p>
-                                        <p>Processing</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/Virtual4087" target="_blank">
+            <img
+              class="mobile-img"
+              src="assets/shovit.jpg"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="assets/shovit.jpg"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Shovit</h1>
+                <p class="flex-gap-small sub-info">
+                  Python Developer<span class="icon-circle"> o </span>Game
+                  Enthusiast<span class="icon-circle"> o </span>Nature Lover
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>Vs Code</p>
+                    <p>Photoshop</p>
+                    <p>Pycharm</p>
+                    <p>Illustrator</p>
+                    <p>Docker</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>Python</p>
+                    <p>Django</p>
+                    <p>C</p>
+                    <p>HTML</p>
+                    <p>CSS</p>
+                    <p>Javascript</p>
+                    <p>Bootstrap</p>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-                <div class="hacktoberfesr-contributor">
-                    <a href="https://github.com/Virtual4087" target="_blank">
-                        <img class="mobile-img" src="assets/shovit.jpg" height="150" width="150">
-                        <div class="card">
-                            <img class="desktop-img" src="assets/shovit.jpg" height="400" width="400">
-                            <div class="card-info">
-                                <h1 class="orange-gradient">Shovit</h1>
-                                <p class="flex-gap-small sub-info">Python Developer<span class="icon-circle"> o
-                                    </span>Game Enthusiast<span class="icon-circle"> o </span>Nature Lover</p>
-                                <div class="using">
-                                    <h2>Software I use:</h2>
-                                    <div class="using-list">
-                                        <p>Vs Code</p>
-                                        <p>Photoshop</p>
-                                        <p>Pycharm</p>
-                                        <p>Illustrator</p>
-                                        <p>Docker</p>
-                                    </div>
-                                    <h2>Things I've developed with so far:</h2>
-                                    <div class="using-list">
-                                        <p>Python</p>
-                                        <p>Django</p>
-                                        <p>C</p>
-                                        <p>HTML</p>
-                                        <p>CSS</p>
-                                        <p>Javascript</p>
-                                        <p>Bootstrap</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/Priyanshu-su30" target="_blank">
+            <img
+              class="mobile-img"
+              src="./assets/Dassault Rafale.jpg"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="./assets/Dassault Rafale.jpg"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Priyanshu Singh</h1>
+                <p class="flex-gap-small sub-info">
+                  Front-End developer<span class="icon-circle"> o </span>Music
+                  Lover<span class="icon-circle"> o </span>Gym Enthusiast
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>Vs Code</p>
+                    <p>Lorem Ipsum</p>
+                    <p>Lorem Ipsum</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>Java</p>
+                    <p>Python</p>
+                    <p>C++</p>
+                    <p>Html</p>
+                    <p>Js</p>
+                    <p>React</p>
+                  </div>
                 </div>
-
-
-
-                <div class="hacktoberfesr-contributor">
-                <a href="https://github.com/Priyanshu-su30" target="_blank">
-                   <img class="mobile-img" src="./assets/Dassault Rafale.jpg" height="150" width="150">
-                   <div class="card">
-                       <img class="desktop-img" src="./assets/Dassault Rafale.jpg" height="400" width="400">
-                       <div class="card-info">
-                           <h1 class="orange-gradient">Priyanshu Singh</h1>
-                           <p class="flex-gap-small sub-info">Front-End developer<span class="icon-circle"> o </span>Music Lover<span class="icon-circle"> o </span>Gym Enthusiast</p>
-                           <div class="using">
-                               <h2>Software I use:</h2><div class="using-list"><p>Vs Code</p><p>Lorem Ipsum</p><p>Lorem Ipsum</p></div>
-                               <h2>Things I've developed with so far:</h2>
-                               <div class="using-list">
-                                <p>Java</p>
-                                <p>Python</p>
-                                <p>C++</p>
-                                <p>Html</p>
-                                <p>Js</p>
-                                <p>React</p>
-                            </div>
-                           </div>
-                       </div>
-                   </div>
-               </a>
-           </div> 
-           <div class="hacktoberfesr-contributor">
-            <a href="https://github.com/shresritik" target="_blank">
-               <img class="mobile-img" src="./assets/mug.png" height="150" width="150">
-               <div class="card">
-                   <img class="desktop-img" src="./assets/mug.png" height="400" width="400">
-                   <div class="card-info">
-                       <h1 class="orange-gradient">Ritik Shrestha</h1>
-                       <p class="flex-gap-small sub-info">Full Stack Developer<span class="icon-circle"> o </span>Web Developer<span class="icon-circle"> o </span>Movie Lover</p>
-                       <div class="using">
-                           <h2>Software I use:</h2><div class="using-list"><p>VS code</p><p>Photoshop</p><p>Illustrator</p></div>
-                           <h2>Things I've developed with so far:</h2>
-                           <div class="using-list"><p>Python</p><p>Javascript</p><p>C++</p></div>
-                       </div>
-                   </div>
-               </div>
-           </a>
-       </div> 
-
-
-                <div class="hacktoberfesr-contributor">
-                    <a href="https://github.com/trishan9" target="_blank">
-                        <img class="mobile-img" src="https://avatars.githubusercontent.com/u/114591777?v=4" height="150"
-                            width="150">
-                        <div class="card">
-                            <img class="desktop-img" src="https://avatars.githubusercontent.com/u/114591777?v=4"
-                                height="400" width="400">
-                            <div class="card-info">
-                                <h1 class="orange-gradient">Trishan Wagle</h1>
-                                <p class="flex-gap-small sub-info">Frontend Developer<span class="icon-circle"> o
-                                    </span>Full Stack Enthusiast
-                                    <span class="icon-circle"> o </span>Coffee Lover
-                                </p>
-                                <div class="using">
-                                    <h2>Software I use:</h2>
-                                    <div class="using-list">
-                                        <p>React</p>
-                                        <p>Python</p>
-                                        <p>JavaScript</p>
-                                    </div>
-                                    <h2>Things I've developed with so far:</h2>
-                                    <div class="using-list">
-                                        <p>React</p>
-                                        <p>Python</p>
-                                        <p>JavaScript</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </a>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/shresritik" target="_blank">
+            <img
+              class="mobile-img"
+              src="./assets/mug.png"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="./assets/mug.png"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Ritik Shrestha</h1>
+                <p class="flex-gap-small sub-info">
+                  Full Stack Developer<span class="icon-circle"> o </span>Web
+                  Developer<span class="icon-circle"> o </span>Movie Lover
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>VS code</p>
+                    <p>Photoshop</p>
+                    <p>Illustrator</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>Python</p>
+                    <p>Javascript</p>
+                    <p>C++</p>
+                  </div>
                 </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-                <div class="hacktoberfesr-contributor">
-                    <a href="https://github.com/danielfvm" target="_blank">
-                       <img class="mobile-img" src="assets/deancode.jpg" height="150" width="150">
-                       <div class="card">
-                           <img class="desktop-img" src="assets/deancode.jpg" height="400" width="400">
-                           <div class="card-info">
-                               <h1 class="orange-gradient">DeanCode</h1>
-                               <p class="flex-gap-small sub-info">Web Developer<span class="icon-circle"> o </span>VR Enthusiast<span class="icon-circle"> o </span>Low Level Stuff</p>
-                               <div class="using">
-                                   <h2>Software I use:</h2>
-                                   <div class="using-list">
-                                    <p>Unity</p>
-                                    <p>Blender</p>
-                                    <p>Vim</p>
-                                    <p>Android Studio</p>
-                                    <p>Gimp</p>
-                                    <p>Inkscape</p>
-                                    <p>Intellij</p>
-                                    <p>Linux</p>
-                                </div>
-                                   <h2>Things I've developed with so far:</h2>
-                                   <div class="using-list">
-                                    <p>Rust</p>
-                                    <p>Java</p>
-                                    <p>Kotlin</p>
-                                    <p>C/C++</p>
-                                    <p>HTML</p>
-                                    <p>Python</p>
-                                    <p>Javascript</p>
-                                    <p>Typescript</p>
-                                    <p>PHP</p>
-                                    <p>SvelteKit</p>
-                                    <p>Flutter</p>
-                                </div>
-                               </div>
-                           </div>
-                       </div>
-                   </a>
-                </div> 
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/trishan9" target="_blank">
+            <img
+              class="mobile-img"
+              src="https://avatars.githubusercontent.com/u/114591777?v=4"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="https://avatars.githubusercontent.com/u/114591777?v=4"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Trishan Wagle</h1>
+                <p class="flex-gap-small sub-info">
+                  Frontend Developer<span class="icon-circle"> o </span>Full
+                  Stack Enthusiast <span class="icon-circle"> o </span>Coffee
+                  Lover
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>React</p>
+                    <p>Python</p>
+                    <p>JavaScript</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>React</p>
+                    <p>Python</p>
+                    <p>JavaScript</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
 
-                <!-- 
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/danielfvm" target="_blank">
+            <img
+              class="mobile-img"
+              src="assets/deancode.jpg"
+              height="150"
+              width="150"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="assets/deancode.jpg"
+                height="400"
+                width="400"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">DeanCode</h1>
+                <p class="flex-gap-small sub-info">
+                  Web Developer<span class="icon-circle"> o </span>VR
+                  Enthusiast<span class="icon-circle"> o </span>Low Level Stuff
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>Unity</p>
+                    <p>Blender</p>
+                    <p>Vim</p>
+                    <p>Android Studio</p>
+                    <p>Gimp</p>
+                    <p>Inkscape</p>
+                    <p>Intellij</p>
+                    <p>Linux</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>Rust</p>
+                    <p>Java</p>
+                    <p>Kotlin</p>
+                    <p>C/C++</p>
+                    <p>HTML</p>
+                    <p>Python</p>
+                    <p>Javascript</p>
+                    <p>Typescript</p>
+                    <p>PHP</p>
+                    <p>SvelteKit</p>
+                    <p>Flutter</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="hacktoberfesr-contributor">
+          <a href="https://github.com/purnasth" target="_blank">
+            <img
+              class="mobile-img"
+              src="./assets/purna.webp"
+              height="150"
+              width="150"
+              style="object-fit: cover"
+            />
+            <div class="card">
+              <img
+                class="desktop-img"
+                src="./assets/purna.webp"
+                height="400"
+                width="400"
+                style="object-fit: cover"
+              />
+              <div class="card-info">
+                <h1 class="orange-gradient">Purna Shrestha</h1>
+                <p class="flex-gap-small sub-info">
+                  Web Developer<span class="icon-circle"> o </span>Graphics
+                  Designer<span class="icon-circle"> o </span>App developer<span
+                    class="icon-circle"
+                  >
+                    o </span
+                  >Powerpoint Master
+                </p>
+                <div class="using">
+                  <h2>Software I use:</h2>
+                  <div class="using-list">
+                    <p>VS Code</p>
+                    <p>Adobe Photoshop</p>
+                    <p>Android Studio</p>
+                    <p>Microsoft PowerPoint 365</p>
+                  </div>
+                  <h2>Things I've developed with so far:</h2>
+                  <div class="using-list">
+                    <p>JavaScript</p>
+                    <p>React.js</p>
+                    <p>Tailwind CSS</p>
+                    <p>React native</p>
+                    <p>Adobe Photoshop</p>
+                    <p>Figma</p>
+                    <p>Presentation Slides</p>
+                    <p>Git</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- 
                     ============================================
                 ================ CONTRIBUTORS TEMPLATE ================
                     
@@ -406,23 +611,38 @@
                 ================ CONTRIBUTORS TEMPLATE ================
                     ============================================
             -->
-            </div>
+      </div>
 
-            <div id="modal-1" class="modal">
-                <div class="modal-content">
-                    <div class="modal-close">
-                        <a href="#" onclick="modalToggle('modal-1')" rel="modal:close"
-                            class="icon-close"><span></span></a>
-                    </div>
-                    <p
-                        style="text-align: center; font-size: 2em; font-weight: bold; margin-top: 0px; margin-bottom: 10px;">
-                        Fr fr</p>
-                    <img src="https://cdn.discordapp.com/attachments/920020541543419944/1152118142911397898/IMG_0442.jpg"
-                        loading="lazy">
-                </div>
-            </div>
+      <div id="modal-1" class="modal">
+        <div class="modal-content">
+          <div class="modal-close">
+            <a
+              href="#"
+              onclick="modalToggle('modal-1')"
+              rel="modal:close"
+              class="icon-close"
+              ><span></span
+            ></a>
+          </div>
+          <p
+            style="
+              text-align: center;
+              font-size: 2em;
+              font-weight: bold;
+              margin-top: 0px;
+              margin-bottom: 10px;
+            "
+          >
+            Fr fr
+          </p>
+          <img
+            src="https://cdn.discordapp.com/attachments/920020541543419944/1152118142911397898/IMG_0442.jpg"
+            loading="lazy"
+          />
+        </div>
+      </div>
 
-            <!--
+      <!--
             <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs"
                 type="module"></script>
 
@@ -432,45 +652,43 @@
 
             -->
 
-            <footer>
-               <p class="footer"> Hacktoberfest 2023 </p>
-            </footer>
+      <footer>
+        <p class="footer">Hacktoberfest 2023</p>
+      </footer>
+    </div>
+  </body>
+  <script>
+    const themeChanger = document.getElementById("change-theme");
+    const body = document.getElementsByTagName("body")[0];
 
-    </body>
-    <script>
-        const themeChanger = document.getElementById("change-theme");
-        const body = document.getElementsByTagName("body")[0];
+    function changeTheme() {
+      if (body.getAttribute("data-theme") == "dark") {
+        body.setAttribute("data-theme", "light");
+        themeChanger.classList.remove("icon-moon");
+        themeChanger.classList.add("icon-sun");
+      } else {
+        body.setAttribute("data-theme", "dark");
+        themeChanger.classList.remove("icon-sun");
+        themeChanger.classList.add("icon-moon");
+      }
+    }
 
-        function changeTheme() {
-            if (body.getAttribute("data-theme") == "dark") {
-                body.setAttribute("data-theme", "light");
-                themeChanger.classList.remove("icon-moon");
-                themeChanger.classList.add("icon-sun");
-            } else {
-                body.setAttribute("data-theme", "dark");
-                themeChanger.classList.remove("icon-sun");
-                themeChanger.classList.add("icon-moon");
-            }
-        }
+    const layoutChanger = document.getElementById("change-layout");
+    const contributors = document.getElementById("contributors");
 
-        const layoutChanger = document.getElementById("change-layout");
-        const contributors = document.getElementById("contributors");
+    function changeLayout() {
+      if (contributors.getAttribute("layout-type") == "full") {
+        contributors.setAttribute("layout-type", "compact");
+        layoutChanger.innerHTML = "full";
+      } else {
+        contributors.setAttribute("layout-type", "full");
+        layoutChanger.innerHTML = "compact";
+      }
+    }
 
-        function changeLayout() {
-            if (contributors.getAttribute("layout-type") == "full") {
-                contributors.setAttribute("layout-type", "compact");
-                layoutChanger.innerHTML = "full";
-            } else {
-                contributors.setAttribute("layout-type", "full");
-                layoutChanger.innerHTML = "compact";
-            }
-        }
-
-        function modalToggle(modal) {
-            const modalElement = document.getElementById(modal);
-            modalElement.classList.toggle("modal-active");
-        }
-
-    </script>
-
+    function modalToggle(modal) {
+      const modalElement = document.getElementById(modal);
+      modalElement.classList.toggle("modal-active");
+    }
+  </script>
 </html>
